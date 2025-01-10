@@ -1,6 +1,6 @@
 # Template file for 'hardened_malloc'
 pkgname=hardened_malloc
-version=12
+version=13
 revision=1
 build_style=meta
 depends="hardened_malloc-default hardened_malloc-light"
@@ -9,7 +9,7 @@ maintainer="Natthias <natthias@proton.me>"
 license="MIT"
 homepage="https://github.com/GrapheneOS/hardened_malloc"
 distfiles="https://github.com/GrapheneOS/hardened_malloc/archive/refs/tags/${version}.tar.gz"
-checksum=0bc99987ff149455cd790b1f99566094baeb2212c5ec116ac526685999a29db5
+checksum=1c485dbfd397db68081f95182cde18e1fa54a091dca7e67ee8c9356c6c5db798
 
 do_build() {
 	make VARIANT=default
