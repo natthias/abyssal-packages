@@ -1,6 +1,6 @@
 # Template file for 'flatpak-xdg-utils'
 pkgname=flatpak-xdg-utils
-version=1.0.5
+version=1.0.6
 revision=1
 build_style=meson
 configure_args="--bindir=/usr/lib/flatpak-xdg-utils"
@@ -11,4 +11,4 @@ maintainer="natthias <natthias@proton.me>"
 license="LGPL-2.1-or-later"
 homepage="https://github.com/flatpak/flatpak-xdg-utils"
 distfiles="https://github.com/flatpak/flatpak-xdg-utils/archive/refs/tags/${version}.tar.gz"
-checksum=595f9f046dd674693bae5f45ebca9b9109e09cbe9cffa3756a783aac83c00d84
+checksum=a48e3e4b5591f2c13e867ac095035c0b5ba8c89e1a38058d46312ae7df972b84
