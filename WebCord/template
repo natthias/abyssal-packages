@@ -1,6 +1,6 @@
 # Template file for 'WebCord'
 pkgname=WebCord
-version=4.10.2
+version=4.10.3
 revision=1
 depends="electron33"
 makedepends="git nodejs"
@@ -9,7 +9,7 @@ maintainer="Natthias <natthias@proton.me>"
 license="MIT"
 homepage="https://github.com/SpacingBat3/WebCord"
 distfiles="https://github.com/SpacingBat3/WebCord/archive/refs/tags/v${version}.tar.gz"
-checksum=868115f11bd43d3cec142b43c9c37da69b47d5b3e8488a3f172f7d016b522b99
+checksum=ae0256a0693379778b6c36730cceb4e5098018ecd2196359e1a2aefd011842be
 
 do_configure() {
         cp ${FILESDIR}/buildInfo.json ${wrksrc}
